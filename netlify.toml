@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[build.environment]
+  # lock the Hugo version Netlify should install (optional)
+  HUGO_VERSION = "0.124.1"
