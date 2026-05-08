@@ -1,4 +1,4 @@
-baseURL = "https://YOUR_SITE.netlify.app/"
+baseURL = "https://uosaka-dlab.netlify.app/"
 theme = "PaperMod"
 
 defaultContentLanguage = "ja"
@@ -10,13 +10,13 @@ defaultContentLanguageInSubdir = true
 label = "日本語"
 # languageName = "日本語"
 weight = 1
-title = "〇〇研究室"
+title = "ディペンダビリティ工学研究室"
 
 [languages.en]
 label = "English"
 # languageName = "English"
 weight = 2
-title = "ABC Laboratory"
+title = "Dependability Engineering Laboratory"
 
 [params]
 defaultTheme = "auto"

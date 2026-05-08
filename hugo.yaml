@@ -1,0 +1,69 @@
+baseURL: "https://uosaka-dlab.netlify.app/"
+title: "Dependability Engineering Lab"
+theme: "PaperMod"
+defaultContentLanguage: "jp"
+defaultContentLanguageInSubdir: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 2
+    contentDir: "content/en"
+    params:
+      homeInfoParams:
+        Title: "Dependability Engineering Lab"
+        Content: "Welcome to our research group."
+    menu:
+      main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Members
+          url: /members/
+          weight: 2
+        - name: Publications
+          url: /publications/
+          weight: 3
+        - name: Projects
+          url: /projects/
+          weight: 4
+        - name: Posts
+          url: /posts/
+          weight: 5
+
+  jp:
+    languageName: "日本語"
+    weight: 1
+    contentDir: "content/jp"
+    params:
+      homeInfoParams:
+        Title: "ディペンダビリティ工学講座"
+        Content: "私たちの研究室へようこそ。"
+    menu:
+      main:
+        - name: ホーム
+          url: /jp/
+          weight: 1
+        - name: メンバー
+          url: /jp/members/
+          weight: 2
+        - name: 論文
+          url: /jp/publications/
+          weight: 3
+        - name: プロジェクト
+          url: /jp/projects/
+          weight: 4
+        - name: 記事
+          url: /jp/posts/
+          weight: 5
+
+params:
+  defaultTheme: "auto"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  mainSections:
+    - posts

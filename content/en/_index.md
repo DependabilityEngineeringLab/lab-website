@@ -1,7 +1,4 @@
 ---
-title: "Home"
+title: "Dependability Engineering Lab"
 ---
-
-# ABC Laboratory
-
-We work on machine learning and robotics.
+Welcome to our research group.
