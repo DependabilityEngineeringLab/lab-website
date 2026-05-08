@@ -7,5 +7,5 @@ summary: "Professor, Dependability Engineering Lab"
 weight: 1
 ---
 ## Professor
-- Research Interests: Model Checking, Software Testing, Fault Tolerance
+- 研究分野: モデルチェック、ソフトウェアテスト、フォールトトレランス
 - email: tatsuhiro.tsuchiya@osaka-u.ac.jp
