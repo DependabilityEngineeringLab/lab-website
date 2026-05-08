@@ -1,0 +1,54 @@
+baseURL = "https://YOUR_SITE.netlify.app/"
+theme = "PaperMod"
+
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+
+[languages]
+
+[languages.ja]
+label = "日本語"
+# languageName = "日本語"
+weight = 1
+title = "〇〇研究室"
+
+[languages.en]
+label = "English"
+# languageName = "English"
+weight = 2
+title = "ABC Laboratory"
+
+[params]
+defaultTheme = "auto"
+
+[menu]
+
+[[languages.ja.menu.main]]
+name = "メンバー"
+url = "/ja/members/"
+weight = 1
+
+[[languages.ja.menu.main]]
+name = "論文"
+url = "/ja/publications/"
+weight = 2
+
+[[languages.ja.menu.main]]
+name = "ニュース"
+url = "/ja/posts/"
+weight = 3
+
+[[languages.en.menu.main]]
+name = "Members"
+url = "/en/members/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Publications"
+url = "/en/publications/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "News"
+url = "/en/posts/"
+weight = 3
