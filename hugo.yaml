@@ -2,7 +2,7 @@ baseURL: "https://uosaka-dlab.netlify.app/"
 title: "Dependability Engineering Lab"
 theme: "PaperMod"
 defaultContentLanguage: "jp"
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 languages:
   en:
